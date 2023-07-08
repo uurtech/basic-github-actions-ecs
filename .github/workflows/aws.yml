@@ -7,4 +7,4 @@ jobs:
     steps:
 
       - name: Use environment variable
-        run: echo $MY_VARIABLE
+        run: echo "${{ env.MY_VARIABLE }}"
